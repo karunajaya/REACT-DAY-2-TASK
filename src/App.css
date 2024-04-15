@@ -1,0 +1,43 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.price-card {
+  padding: 30px;
+  margin: 5px;
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: rgb(32, 208, 202);
+}
+.type {
+  font-weight: bolder;
+}
+.abled {
+  opacity: normel;
+}
+.disabled {
+  opacity: 0.3;
+}
+button {
+  border: black;
+  color: rgb(238, 12, 12);
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(221, 237, 224);
+}
+button:hover {
+  cursor: pointer;
+
+  font-weight: bolder;
+}
+
+.all-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
