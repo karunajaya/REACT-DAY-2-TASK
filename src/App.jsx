@@ -124,7 +124,7 @@ function PriceCard({ model, setCount, count }) {
         <span>✅</span> Project : {model.Project.value}
       </p>
       <p className={model.speed.style}>
-        <span>❌</span> speed : {model.speed.value}
+        <span>✅</span> speed : {model.speed.value}
       </p>
       {/* conditional rendering */}
       {show ? (
